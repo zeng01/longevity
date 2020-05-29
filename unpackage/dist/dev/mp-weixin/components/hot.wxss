@@ -1,0 +1,36 @@
+
+.hot_bg{
+	height: 240rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 40rpx 20rpx;
+}
+.hot {
+	padding: 20rpx;
+	background-color: #fff;
+	height: 100%;
+	width: 45%;
+}
+.hot_title {
+	margin: 10rpx 0;
+}
+.hot_img {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 70%;
+}
+.hot_img image {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 100%;
+}
+.hot_img image:first-child {
+	margin-right: 20rpx;
+}
+.hot:first-child{
+	margin-right: 24rpx;
+}
+

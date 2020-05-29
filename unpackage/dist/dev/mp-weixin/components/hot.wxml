@@ -1,0 +1,1 @@
+<view class="hot_bg"><block wx:for="{{hot_list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view class="hot"><view class="hot_title">{{''+item.title+''}}</view><view class="hot_img"><block wx:for="{{item.pic}}" wx:for-item="itemPic" wx:for-index="__i1__"><image src="{{itemPic}}" mode></image></block></view></view></block></view>

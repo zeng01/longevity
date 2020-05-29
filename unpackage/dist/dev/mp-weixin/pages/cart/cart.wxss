@@ -1,0 +1,25 @@
+
+.content {}
+.swiper-item{
+	height: 100%;
+}
+.uni-bg-green {
+	background: #4CD964;
+}
+.uni-bg-blue {
+	background: #098;
+}
+.uni-bg-red {
+	background: #f34;
+}
+.nav{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+
+
+
+

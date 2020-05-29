@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shopping/shopping",
+    "pages/dietitian/dietitian",
+    "pages/cart/cart",
+    "pages/my/my",
+    "components/notice/notice",
+    "components/hot"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "生命波营养技术",
+    "navigationBarBackgroundColor": "#0052D9",
+    "backgroundColor": "#0052D9"
+  },
+  "tabBar": {
+    "color": "#0052D9",
+    "selectedColor": "#0052D9",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/tab_index.png",
+        "selectedIconPath": "static/img/tab_index_active.png"
+      },
+      {
+        "text": "商城",
+        "pagePath": "pages/shopping/shopping",
+        "iconPath": "static/img/tab_shopping.png",
+        "selectedIconPath": "static/img/tab_shopping_active.png"
+      },
+      {
+        "text": "营养师",
+        "pagePath": "pages/dietitian/dietitian",
+        "iconPath": "static/img/tab_dietitian.png",
+        "selectedIconPath": "static/img/tab_dietitian_active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/img/tab_cart.png",
+        "selectedIconPath": "static/img/tab_cart_active.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/img/tab_my.png",
+        "selectedIconPath": "static/img/tab_my_active.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

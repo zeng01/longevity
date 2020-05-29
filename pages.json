@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/shopping/shopping",
+            "style": {
+            	"navigationBarTitleText": "商城"
+            }
+        }
+        ,{
+            "path" : "pages/dietitian/dietitian",
+            "style" : {
+				"navigationBarTitleText": "营养师"
+			}
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {
+				"navigationBarTitleText": "购物车"
+			}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+        ,{
+            "path" : "components/notice/notice",
+            "style" : {
+            	"navigationBarTitleText": "通知公告"
+            }
+        }
+        ,{
+            "path" : "components/hot",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "生命波营养技术",
+		"navigationBarBackgroundColor": "#0052D9",
+		"backgroundColor": "#0052D9"
+	},
+	"tabBar": {
+	  "color": "#0052D9",
+	  "selectedColor": "#0052D9",
+	  "borderStyle": "black",
+	  "backgroundColor": "#fff",
+	  "list": [
+	    {
+	      "text": "首页",
+	      "pagePath": "pages/index/index",
+	      "iconPath": "static/img/tab_index.png",
+	      "selectedIconPath": "static/img/tab_index_active.png"
+	    },
+	    {
+	      "text": "商城",
+	      "pagePath": "pages/shopping/shopping",
+	      "iconPath": "static/img/tab_shopping.png",
+	      "selectedIconPath": "static/img/tab_shopping_active.png"
+	    },
+	    {
+	      "text": "营养师",
+	      "pagePath": "pages/dietitian/dietitian",
+	      "iconPath": "static/img/tab_dietitian.png",
+	      "selectedIconPath": "static/img/tab_dietitian_active.png"
+	    },
+	    {
+	      "text": "购物车",
+	      "pagePath": "pages/cart/cart",
+	      "iconPath": "static/img/tab_cart.png",
+	      "selectedIconPath": "static/img/tab_cart_active.png"
+	    },
+	    {
+	      "text": "个人中心",
+	      "pagePath": "pages/my/my",
+	      "iconPath": "static/img/tab_my.png",
+	      "selectedIconPath": "static/img/tab_my_active.png"
+	    }
+	  ]
+	}
+}
