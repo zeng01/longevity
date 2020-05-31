@@ -85,8 +85,7 @@
 	background-color: #fff;
 	height: 100%;
 	width: 48%;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 .hot_title {
 	margin: 10rpx 0;
@@ -108,5 +107,42 @@
 }
 .hot:first-child{
 	margin-right: 24rpx;
+}
+.product{
+	margin: 20rpx;
+}
+.product_title{
+	margin-bottom:20rpx ;
+}
+.product_title .find{
+	margin: 0 20rpx;
+	padding: 10rpx 20rpx;
+	background-color: #007AFF;
+	color: #fff;
+	border-radius: 40rpx;
+	font-size: 24rpx;
+}
+.product_list .product_hasList{
+	float: left;
+	width: 48%;
+	padding: 14rpx;
+	background-color: #fff;
+	box-sizing: border-box;
+	margin: 0 8rpx;
+}
+.product_hasList image{
+	width: 100%;
+	max-height: 300rpx;
+}
+.product_hasList .title{
+	margin: 10rpx 0;
+}
+.product_price .price{
+	color: #007AFF;
+}
+.product_price .num{
+	margin: 0 14rpx;
+	color: #999;
+	font-size: 24rpx;
 }
 
